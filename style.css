@@ -1,0 +1,36 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes.*/
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 600px;
+	margin: 0 auto;
+	font-family: Verdana;
+}
+
+img {
+	width: 100%;
+	padding: 0;
+}
+
+figcaption {
+	font-size: 12px;
+}
+
+.bookend {
+	background-color: green;
+	color: lightgreen;
+	min-height: 30px;
+	padding: 15px;
+}
+
+/**{
+	outline: 1px solid red !important;
+}*/
